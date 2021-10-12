@@ -1,0 +1,29 @@
+$breadcrumb-font-size:              12px;
+$breadcrumb-padding-y:              0;
+$breadcrumb-padding-x:              0;
+$breadcrumb-item-padding-x:         .5rem;
+$breadcrumb-margin-bottom:          1rem;
+$breadcrumb-bg:                     null;
+$breadcrumb-divider-color:          $main-color-light;
+$breadcrumb-active-color:           $main-color-light;
+$breadcrumb-divider:                quote("/");
+$breadcrumb-divider-flipped:        $breadcrumb-divider;
+$breadcrumb-border-radius:          null;
+
+.breadcrumb-item {
+  a {
+    color: $main-color-light;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .breadcrumb-item {
+    a {
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,103 @@
+footer {
+  background-color: #000;
+  color: $secondly-color;
+
+  a {
+    text-decoration: none;
+    @include transitionMain();
+
+    &:hover {
+      color: #fff;
+      @include transitionMain();
+    }
+  }
+}
+
+.footer-nav {
+  gap: 140px;
+}
+
+.link-custom-no-hover {
+  color: $main-color-light !important;
+  text-decoration: none;
+}
+
+@media (max-width: 1400px) {
+  .footer-nav {
+    gap: 80px;
+  }
+}
+
+.footer-nav-links {
+  a {
+    color: $main-color-light !important;
+    @include transitionMain();
+
+    &:hover {
+      color: #fff !important;
+      @include transitionMain();
+    }
+  }
+}
+
+
+.social-item {
+  opacity: 0.4;
+  @include transitionMain();
+
+  &:hover {
+    opacity: 1;
+    @include transitionMain();
+  }
+}
+
+.errors-likes {
+  font-size: 12px;
+  color: $main-color-light;
+}
+
+.footer-info {
+  font-weight: lighter;
+  font-size: 13px;
+  color: #FFFFFF4D;
+  text-align: center;
+
+  a {
+    color: #FFFFFF4D;
+  }
+}
+
+.footer-header {
+  font-size: 16px;
+}
+
+.form-check-label {
+  font-size: 12px;
+  color: #999;
+}
+
+.form-arrow-button {
+  position: absolute;
+  right: 5px;
+  top: 16px;
+  background: none;
+  border: none;
+}
+
+
+@media (min-width: 600px) {
+  #tretyakovgallery-mobile-logo {
+    display: none;
+  }
+
+
+  //.form-input {
+  //  max-width: 340px;
+  //}
+}
+
+@media (max-width: 900px) {
+  #desktop-content-nav-logo {
+    display: none !important;
+  }
+}

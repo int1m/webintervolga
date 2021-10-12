@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  min-height: 60px;
+  z-index: 1000;
+  background-color: #fff;
+  opacity: 1 !important;
+  transition: all 0.2s ease 0s;
+}
+
+@media (min-width: 1025px) {
+  .header-remove {
+    display: none !important;
+    @include transitionMain();
+    opacity: 0 !important;
+    transition: all 0.2s ease 0s;
+  }
+}
+
+@media (max-width: 1024px) {
+  #desktop-header {
+    display: none !important;
+  }
+}
+
+.desktop-header-img {
+  margin-left: -20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 500px) {
+  .fixed-menu-mobile-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 499px) {
+  .fixed-menu-desk-logo {
+    display: none;
+  }
+}
+
+
+.desktop-header-links {
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: $main-color-light;
+    @include transitionMain();
+
+    &:hover {
+      color: $main-color;
+      @include transitionMain();
+    }
+  }
+}

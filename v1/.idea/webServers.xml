@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3f054cd7-e24e-4b71-9535-8cccddf4095c" name="priem">
+        <fileTransfer rootFolder="/www/priem/htdocs" accessType="SFTP" host="217.149.179.106" port="2244" sshConfigId="ba5bd55f-413f-4044-8612-bcb090356e53" sshConfig="mostovoy@217.149.179.106:2244 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

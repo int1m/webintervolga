@@ -1,0 +1,57 @@
+.form-input {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.form-input-content {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #cccccc;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+  padding: 0 0 0 13px;
+  color: #fff;
+  @include transitionMain;
+
+  &:hover {
+    border: 1px solid $secondly-color;
+    @include transitionMain;
+  }
+
+  &:focus {
+    border: 1px solid $secondly-color;
+    @include transitionMain;
+  }
+}
+
+.form-input-content:focus ~ .form-label,
+.form-input-content:not(:placeholder-shown) ~ .form-label {
+  top: -7px;
+  z-index: 1;
+  color: #fff;
+  font-size: 12px;
+  @include transitionMain;
+}
+
+.form-input-content:focus ~ .form-label {
+  color: $secondly-color;
+  @include transitionMain;
+}
+
+.form-input-content:hover ~ .form-label {
+  color: $secondly-color;
+  @include transitionMain;
+}
+
+.form-label {
+  position: absolute;
+  background-color: #000;
+  padding: 0 3px;
+  top: 18px;
+  left: 10px;
+  z-index: -1;
+  color: #fff;
+  @include transitionMain;
+}
