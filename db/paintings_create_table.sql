@@ -10,4 +10,20 @@ CREATE TABLE IF NOT EXISTS paintings (
 
 
 
+CREATE TABLE IF NOT EXISTS users
+(
+    id             int          NOT NULL AUTO_INCREMENT,
+    email           varchar(256) NOT NULL,
+    surname           varchar(256) NOT NULL,
+    name           varchar(256) NOT NULL,
+    patronymic           varchar(256),
+    vk           varchar(256) NOT NULL,
+    date           varchar(256) NOT NULL,
+    sex           boolean NOT NULL,
+    password           varchar(256) NOT NULL,
+    PRIMARY KEY (id)
+) DEFAULT CHARSET = utf8;
+
+
+
 

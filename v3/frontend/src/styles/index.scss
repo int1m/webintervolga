@@ -1,0 +1,52 @@
+@import "changeDefault";
+@import "fonts";
+@import "variables";
+@import "mixins";
+
+@import "sections/section-1";
+@import "sections/section-event-detail";
+@import "sections/paintings";
+@import "sections/footer";
+
+@import "form/index";
+
+@import "bootstrap/custom";
+@import "~bootstrap/scss/bootstrap" ;
+
+html {
+  box-sizing: border-box;
+}
+
+*,*::after,*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Gerbera", sans-serif;
+  color: $main-color;
+  font-size: 14px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+main {
+  min-height: 100%;
+}
+
+
+@media (max-width: 1024px) {
+  main {
+    padding-top: 67px;
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    padding-top: 61px;
+  }
+}

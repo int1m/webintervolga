@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2de0ed-7709-4717-bbce-6d4d50a8de9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/webpack.prod.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Project/Web/gtt" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -49,7 +44,8 @@
       <updated>1634038399390</updated>
       <workItem from="1634038400990" duration="18000" />
       <workItem from="1634038546972" duration="1236000" />
-      <workItem from="1634045533082" duration="185000" />
+      <workItem from="1634045533082" duration="785000" />
+      <workItem from="1634242573951" duration="146000" />
     </task>
     <servers />
   </component>
