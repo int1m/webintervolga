@@ -2,154 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2de0ed-7709-4717-bbce-6d4d50a8de9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/v2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/Core.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/config/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/AuthorsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/ImagesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/PaintingsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/RegController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models/Authors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models/BaseModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models/FailedAuthorization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models/Paintings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/storage/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/storage/paintings/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/storage/paintings/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/storage/paintings/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/storage/paintings/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/storage/paintings/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/storage/paintings/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/storage/paintings/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Gerbera-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Gerbera-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Gerbera-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Gerbera-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/Gerbera.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/fonts/William-Text-Pro-Reg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/culture-gov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/likedislike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/logo-t-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/triangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/tripadvisor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/vk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/footer/youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/desktop-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/friends.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/header-desk-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/store.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/ticket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/icons/v-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/section-1/762.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/section-1/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/section-event-detail/clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/section-event-detail/friend.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/section-event-detail/invalid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/section-event-detail/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/section-event-detail/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/section-event-detail/photo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/assets/section-event-detail/rules.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/EventDetail/TgEventDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Footer/TgFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/TgHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Paintings/TgPaintings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/_changeDefault.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/bootstrap/_breadCrumbsCustom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/bootstrap/_buttonCustom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/bootstrap/_checkboxCustom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/bootstrap/_container.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/bootstrap/_custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/bootstrap/_inputCustom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/bootstrap/_selectCustom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/bootstrap/_theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/form/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/form/_input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/sections/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/sections/_section-1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/sections/_section-event-detail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/sections/paintings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/AbstractView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/ForbiddenView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/LoginView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PaintingsView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PublicView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/RegView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/webpack.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/webpack.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Gerbera-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Gerbera-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Gerbera-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Gerbera-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Gerbera.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/William-Text-Pro-Reg.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/culture-gov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/likedislike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/logo-t-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/triangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/tripadvisor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/vk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/footer/youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/header/alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/header/desktop-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/header/friends.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/header/header-desk-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/header/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/header/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/header/store.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/header/ticket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icons/v-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/section-1/762.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/section-1/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/section-event-detail/clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/section-event-detail/friend.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/section-event-detail/invalid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/section-event-detail/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/section-event-detail/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/section-event-detail/photo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/section-event-detail/rules.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main.58807e3f8224cf8bc74b.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main.58807e3f8224cf8bc74b.bundle.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/main.8d65294e248571a7afcd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/runtime.b0107803120b79925d67.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db/paintings_create_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../db/paintings_create_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../v4" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -239,7 +101,9 @@
       <workItem from="1635758245674" duration="2230000" />
       <workItem from="1635772795061" duration="24144000" />
       <workItem from="1635800079849" duration="10485000" />
-      <workItem from="1635849877303" duration="8936000" />
+      <workItem from="1635849877303" duration="9692000" />
+      <workItem from="1635882552115" duration="426000" />
+      <workItem from="1636359717131" duration="522000" />
     </task>
     <servers />
   </component>
