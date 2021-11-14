@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2de0ed-7709-4717-bbce-6d4d50a8de9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/controllers/FilesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/controllers/WorkerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/FilesView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/NotFoundView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v4/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/../v4/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v4/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/../v4/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../v4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +54,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../v5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v5\frontend\src\views" />
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v5\api\controllers" />
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v5\api\models" />
       <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v4\api\storage" />
       <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v4\frontend\src\views" />
-      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v3\frontend\src\views" />
-      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v3\api\models" />
-      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v3\api\storage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v4\api\storage\images" />
@@ -102,7 +106,9 @@
       <workItem from="1635882552115" duration="426000" />
       <workItem from="1636360244844" duration="4872000" />
       <workItem from="1636565302632" duration="610000" />
-      <workItem from="1636794213617" duration="27308000" />
+      <workItem from="1636794213617" duration="26686000" />
+      <workItem from="1636823603994" duration="17424000" />
+      <workItem from="1636882694027" duration="5623000" />
     </task>
     <servers />
   </component>

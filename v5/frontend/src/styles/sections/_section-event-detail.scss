@@ -1,0 +1,135 @@
+.event-detail__about-cols {
+  .event-detail__about-col {
+    .event-detail__about-col__tab {
+      border-bottom: 1px solid #eaeaea;
+    }
+
+    &:first-of-type {
+      .event-detail__about-col__tab {
+        border-top: 1px solid #eaeaea;
+      }
+    }
+  }
+}
+
+
+.event-detail__about-col__tab__title {
+  padding: 17px 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.v-icon {
+  transform: rotate(0deg);
+  transition-duration: .3s;
+}
+
+.v-icon-rotate {
+  transform: rotate(180deg);
+  transition-duration: .3s;
+}
+
+.event-detail__about-col__tab__content {
+  display: none;
+  height: 0;
+  transition: height 350ms ease;
+  overflow: hidden;
+
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.event-detail__about-col__tab__content-active {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.event-detail__about-col__tab__content__img {
+  padding-top: 4px;
+}
+
+.event-detail__about-item {
+  font-size: 16px;
+  line-height: 24px;
+  color: #666;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+
+  a {
+    text-decoration: none;
+    color: #b4966e;
+
+    &:hover {
+      color: #b4966e;
+    }
+  }
+
+  li {
+    position: relative;
+    padding-left: 10px;
+
+    &:before {
+      position: absolute;
+      top: 9px;
+      left: 0;
+      content: "";
+      width: 3px;
+      height: 3px;
+      border-radius: 50px;
+      background: #666;
+    }
+  }
+}
+
+.event-detail__about-icon {
+  display: flex;
+  width: 43px;
+  height: 43px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(51,51,51,.3);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.graphic-online {
+  color: #b4966e;
+}
+
+@media (min-width: 768px) {
+  .event-detail__about-col__tab__content {
+    display: flex !important;
+    height: auto !important;
+    flex-direction: column !important;
+  }
+
+  .v-icon {
+    display: none;
+  }
+
+  .event-detail__about-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 60px;
+  }
+
+  .event-detail__about-col__tab__title {
+    font-size: 24px;
+  }
+
+  .event-detail__about-cols {
+    .event-detail__about-col {
+      .event-detail__about-col__tab {
+        border-bottom: none;
+      }
+
+      &:first-of-type {
+        .event-detail__about-col__tab {
+          border-top: none;
+        }
+      }
+    }
+  }
+}
