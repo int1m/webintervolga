@@ -12,7 +12,9 @@ $router = [
     'files' => 'FilesController',
     'worker' => 'WorkerController',
 ];
-
+//echo '<pre>';
+//print_r($_SERVER['REQUEST_URI']);
+//exit();
 try {
     if (isset($router[$requestUri])) {
         $file = "controllers/{$router[$requestUri]}.php";
@@ -29,6 +31,7 @@ try {
             echo json_encode(Array('errors' => ['Class Not Found']));
         }
     } else {
+
         echo json_encode(Array('errors' => ['API Not Found']));
     }
 } catch (Exception $e) {

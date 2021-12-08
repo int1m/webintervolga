@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b2de0ed-7709-4717-bbce-6d4d50a8de9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/controllers/PaintingsEditController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Paintings/TgPaintingsForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/FormVirtualDOM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Paintings/PaintingsCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/views/Paintings/PaintingsEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v5/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../v5/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v5/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/../v5/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v5/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/../v5/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v5/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/../v5/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../v5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v5/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../v5/api/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v5/api/storage/public/files/paintings_exported.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../v5/api/storage/public/files/paintings_exported.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v5/api/storage/public/files/paintings_imported.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../v5/api/storage/public/files/paintings_imported.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v5/api/storage/public/tmpFiles/paintings_exported.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../v5/api/storage/public/tmpFiles/paintings_exported.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zP8WqydM3Su5i4V6bBUGM4DQGP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Project/Web/gtt" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v7\api\controllers" />
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v7\frontend\src\views\Paintings" />
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v7\frontend\src\components\Paintings" />
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v5\frontend\src\views" />
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v5\api\controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v7\frontend\src\views\Paintings" />
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v4\api\storage\images" />
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v4\api\storage\public" />
+      <recent name="D:\Programs\xampp\htdocs\tretyakovgallery\v3\frontend\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b2de0ed-7709-4717-bbce-6d4d50a8de9d" name="Changes" comment="" />
+      <created>1634038399390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634038399390</updated>
+      <workItem from="1634038400990" duration="18000" />
+      <workItem from="1634038546972" duration="1236000" />
+      <workItem from="1634045533082" duration="785000" />
+      <workItem from="1634242573951" duration="146000" />
+      <workItem from="1635591657489" duration="25630000" />
+      <workItem from="1635674073768" duration="28182000" />
+      <workItem from="1635758245674" duration="2230000" />
+      <workItem from="1635772795061" duration="24144000" />
+      <workItem from="1635800079849" duration="10485000" />
+      <workItem from="1635849877303" duration="9692000" />
+      <workItem from="1635882552115" duration="426000" />
+      <workItem from="1636360244844" duration="4872000" />
+      <workItem from="1636565302632" duration="610000" />
+      <workItem from="1636794213617" duration="26686000" />
+      <workItem from="1636823603994" duration="17424000" />
+      <workItem from="1636882694027" duration="6219000" />
+      <workItem from="1637048650500" duration="4194000" />
+      <workItem from="1637131014377" duration="69000" />
+      <workItem from="1638357606207" duration="3383000" />
+      <workItem from="1638716216287" duration="24380000" />
+      <workItem from="1638775192557" duration="37000" />
+      <workItem from="1638813840646" duration="12270000" />
+      <workItem from="1638874687961" duration="2346000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

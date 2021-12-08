@@ -1,0 +1,46 @@
+@import "input";
+
+.full-view-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.full-view {
+  max-width: 400px;
+}
+
+.tg-form {
+  margin-top: 20px;
+}
+
+.tg-form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-input-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 270px;
+}
+
+.form-button-inner {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 0.3fr 0.7fr;
+}
+
+.tg-form-button {
+  width: 100%;
+}
+
+.form-general-errors {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}

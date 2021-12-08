@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2de0ed-7709-4717-bbce-6d4d50a8de9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/controllers/FilesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/controllers/WorkerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/FilesView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/NotFoundView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../v4/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/../v4/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../v4/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/../v4/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../v4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../v4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f5c7eeea-cb37-4629-bee3-939f2d056bb2/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/storage/public/files/paintings_exported.csv" beforeDir="false" afterPath="$PROJECT_DIR$/api/storage/public/files/paintings_exported.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/storage/public/files/paintings_imported.csv" beforeDir="false" afterPath="$PROJECT_DIR$/api/storage/public/files/paintings_imported.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/storage/public/tmpFiles/paintings_exported.csv" beforeDir="false" afterPath="$PROJECT_DIR$/api/storage/public/tmpFiles/paintings_exported.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../v7" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -108,7 +109,11 @@
       <workItem from="1636565302632" duration="610000" />
       <workItem from="1636794213617" duration="26686000" />
       <workItem from="1636823603994" duration="17424000" />
-      <workItem from="1636882694027" duration="5623000" />
+      <workItem from="1636882694027" duration="6219000" />
+      <workItem from="1637048650500" duration="4194000" />
+      <workItem from="1637131014377" duration="69000" />
+      <workItem from="1638357606207" duration="3383000" />
+      <workItem from="1638715893822" duration="314000" />
     </task>
     <servers />
   </component>
